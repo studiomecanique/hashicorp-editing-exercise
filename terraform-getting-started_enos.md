@@ -1,6 +1,6 @@
 # Getting Started with Terraform
 
-HashiCorp Terraform provides tools for defining and provisioning infrastructure as code (IaC). To create Terraform infrastructure, you define configuration files that represent infrastructure resources. Terraform applies configuration files to your deployment and manages the infrastructure resources they represent. 
+HashiCorp Terraform provides tools for defining and provisioning infrastructure as code (IaC). To create Terraform infrastructure, you define configuration files that represent infrastructure resources. Terraform applies configuration files to your deployment and manages the infrastructure resources they define. 
 
 This guide introduces the basic commands you need to create and deploy Terraform resources. 
 
