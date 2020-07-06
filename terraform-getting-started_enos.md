@@ -63,7 +63,7 @@ The container resource will run the `training` instance of the NGINX open-source
 
 Before Terraform can apply the configuration, you need to initialize the configuration files in your working directory. We recommend that the working directory be set to the root directory of the configuration. 
 
-You can use the [`terraform init`](https://www.terraform.io/docs/commands/init.html) command to initialize the directory. 
+You can use the [`terraform init`](https://www.terraform.io/docs/commands/init.html) command to initialize the directory: 
 
 ```shell
 $ terraform init
@@ -75,7 +75,7 @@ Before continuing, be sure to resolve any errors that occur during the initializ
 
 ## Provision your infrastructure
 
-The infrastructure you specify in your configuration file is represented as Terraform resource objects. Use the [`terraform apply`](https://www.terraform.io/docs/commands/apply.html) command to apply the configuration file and provision the infrastructure.
+The infrastructure you specify in your configuration file is represented as Terraform resource objects. Use the [`terraform apply`](https://www.terraform.io/docs/commands/apply.html) command to apply the configuration file and provision the infrastructure:
 
 ```shell
 $ terraform apply
@@ -84,7 +84,7 @@ Configuration changes can take a few minutes to complete. Terraform displays a n
 
 ## Destroy your infrastructure
 
-To remove Terraform-managed infrastructure resources, use the [`terraform destroy`](https://www.terraform.io/docs/commands/destroy.html) command.
+To remove Terraform-managed infrastructure resources, use the [`terraform destroy`](https://www.terraform.io/docs/commands/destroy.html) command:
 
 ```shell
 $ terraform destroy
