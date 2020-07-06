@@ -23,13 +23,13 @@ $ cd terraform-demo
 
 Terraform lets you define infrastructure in declarative configuration files. You write configuration files in HashiCorp Configuration Language (HCL) using the .tf or JSON.tf file format. Terraform loads the .tf files that you save to your working directory and manages the infrastructure you create. 
 
-From the Terraform CLI, type the following
+From the Terraform CLI, type the following command:
 
 ```shell
 $ touch main.tf
 ```
 
-Add the code to the configuration file you created. 
+Add the code to the configuration file: 
 
 ```hcl
 provider "docker" {
