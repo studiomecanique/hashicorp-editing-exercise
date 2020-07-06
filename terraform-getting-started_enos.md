@@ -52,7 +52,7 @@ resource "docker_image" "nginx" {
 
 The configuration code includes a provider block that defines a "docker" provider. 
 
-This code also includes declarative definitions for the following infrastructure resources: 
+The code also includes declarative definitions for the following infrastructure resources: 
 
 - a "docker_container" type resource named "nginx" 
 - a "docker_image" type resource named "nginx"
@@ -75,7 +75,7 @@ Before continuing, be sure to resolve any errors that occur during the initializ
 
 ## Provision your infrastructure
 
-The infrastructure you specify in your configuration file is represented as Terraform resource objects. Use the [`terraform apply`] (https://www.terraform.io/docs/commands/apply.html) command to apply the configuration file and provision the infrastructure.
+The infrastructure you specify in your configuration file is represented as Terraform resource objects. Use the [`terraform apply`](https://www.terraform.io/docs/commands/apply.html) command to apply the configuration file and provision the infrastructure.
 
 ```shell
 $ terraform apply
@@ -99,9 +99,9 @@ This guide has given you basic information on using HashiCorp Terraform to creat
 
 - To learn more about using Terraform, see [Learn to provision infrastructure with HashiCorp Terraform]( https://learn.hashicorp.com/terraform). 
 
-- For detailed information on the Terraform configuration language, see [Configuration Language] (https://www.terraform.io/docs/configuration/index.html). 
+- For detailed information on the Terraform configuration language, see [Configuration Language](https://www.terraform.io/docs/configuration/index.html). 
 
-- For reference information on the commands of the Terraform command-line interface, see [Terraform CLI Documentation] (https://www.terraform.io/docs/cli-index.html).
+- For reference information on the commands of the Terraform command-line interface, see [Terraform CLI Documentation](https://www.terraform.io/docs/cli-index.html).
 
 - For information about the Terraform community, including the community forum, bug trackers, and training, see [Community]( https://www.terraform.io/community.html).
 
