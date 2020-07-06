@@ -57,7 +57,7 @@ The code also includes declarative definitions for the following infrastructure 
 - a "docker_container" type resource named "nginx" 
 - a "docker_image" type resource named "nginx"
 
-The container resource will run the "training" instance of the NGINX open-source web server with ingress and egress on port 80. 
+The container resource will run the `training` instance of the NGINX open-source web server with ingress and egress on port 80. 
 
 ## Initialize your working directory
 
